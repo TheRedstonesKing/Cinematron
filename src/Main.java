@@ -10,7 +10,7 @@ public class Main {
         f2 = new Film("Michel aux pays des dinos", 3);
         f3 = new Film("Je suis pas fort", 4);
         f4 = new Film("Je suis pas très fort", 2);
-        f5 = new Film("Je suis fort", 1);
+        f5 = new Film("Je suis fort pour le peuple", 1);
 
         Horaire c1, c2, c3;
         c1 = new Horaire(11, 23);
