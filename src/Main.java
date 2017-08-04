@@ -5,12 +5,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Film f1, f2, f3, f4, f5;
+        Film f1, f2, f3, f4, f5, f6;
         f1 = new Film("Harry et les septs nains", 1);
         f2 = new Film("Michel aux pays des dinos", 3);
         f3 = new Film("Je suis pas fort", 4);
         f4 = new Film("Je suis pas très fort", 2);
         f5 = new Film("Je suis fort pour le peuple", 1);
+        f6 = new Film("Test", 5);
 
         Horaire c1, c2, c3;
         c1 = new Horaire(11, 23);
@@ -22,6 +23,7 @@ public class Main {
         listc1.add(f1);
         listc1.add(f2);
         listc1.add(f3);
+        listc1.add(f6);
 
         List<Film> listc2 = new ArrayList<>();
         listc2.add(f1);
